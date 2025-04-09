@@ -29,7 +29,7 @@ function App() {
           {/* Ring Image */}
           <div className="relative z-10 w-full max-w-2xl mx-auto">
             <img
-              src="/ring.png"
+              src="/Winpact/ring.png"
               alt="Eagles Super Bowl Ring"
               className="w-full rounded-lg transform hover:scale-105 transition-transform duration-500"
             />
