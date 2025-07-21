@@ -16,7 +16,7 @@ export default class HTML {
     this.bg.classList.add("bg");
     this.bgContent = `
     <div class="img-con">
-      <img src="/textures/eagle_logo.png" alt="logo">
+      <img src="./textures/eagle_logo.png" alt="logo">
 
       </div>
       <svg
