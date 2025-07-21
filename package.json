@@ -5,12 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "description": "",
+  "homepage": "https://snakefifer.github.io/Winpact",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "gsap": "^3.12.7",
     "lil-gui": "^0.20.0",
     "stats.js": "^0.17.0",
