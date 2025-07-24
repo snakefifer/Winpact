@@ -231,5 +231,15 @@
       <span>Scroll for More</span>
       <div class="arrow">&#x25BC;</div>
     </div>
+    <script>
+      window.addEventListener('scroll', () => {
+        const scrollIndicator = document.querySelector('.scroll-indicator');
+        if (window.scrollY > 10) {
+          scrollIndicator.classList.add('hidden');
+        } else {
+          scrollIndicator.classList.remove('hidden');
+        }
+      });
+    </script>
   </body>
 </html>
