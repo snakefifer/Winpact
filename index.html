@@ -12,8 +12,8 @@
     />
     <title>Winpact Private Test</title>
     <link rel="icon" type="image/x-icon" href="./textures/eagle_logo.png" />
-    <script type="module" crossorigin src="/Winpact/assets/index-8SLREPqx.js"></script>
-    <link rel="stylesheet" crossorigin href="/Winpact/assets/index-B2qzSKSy.css">
+    <script type="module" crossorigin src="/Winpact/assets/index-CeXSmKQs.js"></script>
+    <link rel="stylesheet" crossorigin href="/Winpact/assets/index-DXm0wTSl.css">
   </head>
   <body>
     <canvas class="web-gl"></canvas>
@@ -231,5 +231,15 @@
       <span>Scroll for More</span>
       <div class="arrow">&#x25BC;</div>
     </div>
+    <script>
+      window.addEventListener('scroll', () => {
+        const scrollIndicator = document.querySelector('.scroll-indicator');
+        if (window.scrollY > 10) {
+          scrollIndicator.classList.add('hidden');
+        } else {
+          scrollIndicator.classList.remove('hidden');
+        }
+      });
+    </script>
   </body>
 </html>
